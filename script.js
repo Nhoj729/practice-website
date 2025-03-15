@@ -10,9 +10,10 @@ function addTask() {
     let li = document.createElement("li");
 
     li.innerHTML = `
-        <span onclick="toggleComplete(this)">${taskText}</span>
-        <button class="delete-btn" onclick="deleteTask(this)">X</button>
+    <span class="task-text" onclick="toggleComplete(this)">${taskText}</span>
+    <button class="delete-btn" onclick="deleteTask(this)">X</button>
     `;
+
 
     taskList.appendChild(li);
     saveTasks();
