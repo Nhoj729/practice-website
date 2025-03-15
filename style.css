@@ -51,7 +51,7 @@ li {
 
 .completed {
     text-decoration: line-through;
-    color: gray;
+    color: green;
 }
 
 .delete-btn {
